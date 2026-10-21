@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "systemclient",
+	"version": "${version}",
+	"name": "SystemClient",
+	"description": "Clean modular Fabric client template: keybind/config persistence, ClickGUI, and example modules.",
+	"authors": [],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.systemclient.SystemClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.0",
+		"minecraft": "1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
