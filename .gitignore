@@ -1,0 +1,26 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+
+# fabric
+run/
+remappedSrc/
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vs code & eclipse
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# os
+.DS_Store
+Thumbs.db
